@@ -1,19 +1,21 @@
 # City class definition
 import jsonpickle
 from district import District
-
+from smartdevice import SmartDevice
 class City:
     def __init__(self):
-        self.lst_city = []
+        self.lst_district :list[District] = []
+        self.lst_device :list[SmartDevice] = []
 
 
-    def add_district(self,district):
+    def add_district(self,district:District):
         "Adds a new district to the city"
-        pass
+        self.lst_district.append(district)
+        self.save()
 
     def get_all_devices(self):
         "Returns a list of all smart devices in all districts"
-        pass
+
 
     def save(self):
         with open("LaVille.json", 'w',encoding="utf-8") as file:
