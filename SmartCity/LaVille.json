@@ -1,0 +1,34 @@
+{
+    "py/object": "SmartCity.models.city.City",
+    "user_dict": {
+        "larcel": {
+            "py/object": "SmartCity.models.subclasses_user.Guest",
+            "lst_erreur": [],
+            "_name": "Larcel",
+            "_password": "asdsa1",
+            "type_guest": "Guest",
+            "district": [],
+            "device": []
+        },
+        "Larcel": {
+            "py/object": "SmartCity.models.subclasses_user.Guest",
+            "lst_erreur": [],
+            "_name": "Larcel",
+            "_password": "asda1",
+            "type_guest": "Guest",
+            "district": [],
+            "device": []
+        },
+        "Marcel": {
+            "py/object": "SmartCity.models.subclasses_user.Guest",
+            "lst_erreur": [],
+            "_name": "Marcel",
+            "_password": "asda1",
+            "type_guest": "Guest",
+            "district": [],
+            "device": []
+        }
+    },
+    "lst_district": [],
+    "lst_device": []
+}

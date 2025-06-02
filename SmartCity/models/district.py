@@ -1,14 +1,15 @@
 # District class with device list
-from device import Device
+from SmartCity.models.smartdevice  import SmartDevice
+
 class District:
     def __init__(self):
         pass
 
-    def add_device(self,device:Device):
+    def add_device(self,device:SmartDevice):
         "Adds a smart device to the district."
         pass
 
-    def remove_device(self,device:Device):
+    def remove_device(self,device:SmartDevice):
         "Removes a device from the district."
         pass
 

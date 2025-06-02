@@ -1,9 +1,11 @@
 # City class definition
 import jsonpickle
-from district import District
-from smartdevice import SmartDevice
+from SmartCity.models.district import District
+from SmartCity.models.smartdevice  import SmartDevice
+
 class City:
     def __init__(self):
+        self.user_dict = {}
         self.lst_district :list[District] = []
         self.lst_device :list[SmartDevice] = []
 

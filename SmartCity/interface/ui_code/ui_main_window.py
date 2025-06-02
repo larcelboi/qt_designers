@@ -31,6 +31,14 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.mainLayout = QVBoxLayout(self.centralwidget)
         self.mainLayout.setObjectName(u"mainLayout")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        font = QFont()
+        font.setPointSize(12)
+        self.label.setFont(font)
+
+        self.mainLayout.addWidget(self.label)
+
         self.verticalLayout = QVBoxLayout()
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.verticalLayout.setContentsMargins(450, -1, -1, -1)
@@ -180,13 +188,14 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
     def retranslateUi(self, MainWindow):
+        self.label.setText(QCoreApplication.translate("MainWindow", u"City of : Nom", None))
         self.btn_logout.setText(QCoreApplication.translate("MainWindow", u"Logout", None))
         self.lbl_welcome.setText(QCoreApplication.translate("MainWindow", u"Welcome! Please login to manage the Smart City.", None))
         self.btn_add_district.setText(QCoreApplication.translate("MainWindow", u"Add District", None))
