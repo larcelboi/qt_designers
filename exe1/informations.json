@@ -1,0 +1,23 @@
+{
+    "py/object": "information_sauvegarder.Information",
+    "liste_personne": [
+        {
+            "py/object": "personne.Personne",
+            "_name": "marco",
+            "_age": 30000,
+            "_role": "Admin"
+        },
+        {
+            "py/object": "personne.Personne",
+            "_name": "marcel",
+            "_age": 12,
+            "_role": "Student"
+        },
+        {
+            "py/object": "personne.Personne",
+            "_name": "jojo",
+            "_age": 12,
+            "_role": "Student"
+        }
+    ]
+}

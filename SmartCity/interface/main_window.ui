@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>600</height></rect></property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item><widget class="QLabel" name="lbl_title"><property name="text"><string>Smart City Control Panel</string></property></widget></item>
+    <item><widget class="QComboBox" name="cb_user_role"/></item>
+    <item><widget class="QPushButton" name="btn_login"><property name="text"><string>Login</string></property></widget></item>
+    <item><widget class="QStackedWidget" name="stackedWidget"/></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
