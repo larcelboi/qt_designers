@@ -1,32 +1,112 @@
 {
     "py/object": "SmartCity.models.city.City",
     "user_dict": {
-        "larcel": {
+        "Bob": {
             "py/object": "SmartCity.models.subclasses_user.Guest",
             "lst_erreur": [],
-            "_name": "Larcel",
-            "_password": "asdsa1",
+            "_name": "Bob",
+            "_password": "bob",
             "type_guest": "Guest",
-            "district": [],
-            "device": []
+            "district_device": [
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "lala",
+                            "_energy_usage": 12,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        }
+                    ],
+                    "name": "baba",
+                    "device_type": "RESIDENTIAL"
+                },
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "juju",
+                            "_energy_usage": 30,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        },
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "as",
+                            "_energy_usage": 12,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        }
+                    ],
+                    "name": "lala",
+                    "device_type": "RESIDENTIAL"
+                },
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "juju",
+                            "_energy_usage": 30,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        }
+                    ],
+                    "name": "tutu",
+                    "device_type": "RESIDENTIAL"
+                },
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [],
+                    "name": "lala",
+                    "device_type": "INDUSTRIAL"
+                }
+            ]
         },
-        "Larcel": {
-            "py/object": "SmartCity.models.subclasses_user.Guest",
+        "Jaja": {
+            "py/object": "SmartCity.models.subclasses_user.Technician",
             "lst_erreur": [],
-            "_name": "Larcel",
-            "_password": "asda1",
-            "type_guest": "Guest",
-            "district": [],
-            "device": []
-        },
-        "Marcel": {
-            "py/object": "SmartCity.models.subclasses_user.Guest",
-            "lst_erreur": [],
-            "_name": "Marcel",
-            "_password": "asda1",
-            "type_guest": "Guest",
-            "district": [],
-            "device": []
+            "_name": "Jaja",
+            "_password": "jaja",
+            "type_guest": "Technician",
+            "district_device": [
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "ds",
+                            "_energy_usage": 12,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        }
+                    ],
+                    "name": "lala",
+                    "device_type": "INDUSTRIAL"
+                },
+                {
+                    "py/object": "SmartCity.models.district.District",
+                    "liste_device": [
+                        {
+                            "py/object": "SmartCity.models.subclasses_district.Camera",
+                            "_name": "ds",
+                            "_energy_usage": 12,
+                            "_status": true,
+                            "_malfunctioning": false,
+                            "_recording": true
+                        }
+                    ],
+                    "name": "as",
+                    "device_type": "RESIDENTIAL"
+                }
+            ]
         }
     },
     "lst_district": [],

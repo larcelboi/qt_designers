@@ -62,3 +62,6 @@ class SmartDevice:
 
     def reset_malfunction(self):
         "Clears the malfunction flag."
+
+    def __str__(self):
+        return f"Nom: {self.name} - Energy : {self.energy_usage} - Status : {"ON" if self.status else "OFF"} Malfunctioning : {"ERROR" if self.malfunctioning else "Running well"} "

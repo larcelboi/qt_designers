@@ -2,8 +2,10 @@
 from SmartCity.models.smartdevice  import SmartDevice
 
 class District:
-    def __init__(self):
-        pass
+    def __init__(self,name,device_type):
+        self.liste_device = []
+        self.name = name
+        self.device_type = device_type
 
     def add_device(self,device:SmartDevice):
         "Adds a smart device to the district."

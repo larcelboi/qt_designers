@@ -11,8 +11,7 @@ class User:
         self.name = name
         self.password = password
         self.type_guest = type_guest
-        self.district: list[District] = []
-        self.device: list[SmartDevice] = []
+        self.district_device: list[District] = []
 
     @property
     def name(self):

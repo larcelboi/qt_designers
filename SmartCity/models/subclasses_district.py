@@ -1,5 +1,5 @@
-from smartdevice import SmartDevice
-from enum_device_type import DeviceType,DistrictType,TrafficLightMode
+from SmartCity.models.smartdevice import SmartDevice
+from SmartCity.models.enum_device_type import DeviceType,DistrictType,TrafficLightMode
 
 class Camera(SmartDevice):
     def __init__(self,name : str,energy_usage:int,status:bool,malfunctioning:bool,recording:bool):
